@@ -12,20 +12,20 @@ GIT_SUBMODULE_STRATEGY = "recursive"
 command = "hugo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.127.0"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.127.0"
 
 [context.branch-deploy]
 command = "hugo"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.80.0"
+HUGO_VERSION = "0.127.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
